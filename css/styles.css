@@ -14,6 +14,7 @@
 }
 /* fuente utilizada */ 
 
+
 .font-changa {
     font-family: "Changa", sans-serif;
     font-optical-sizing: auto;
@@ -36,6 +37,14 @@ html {
 
 body{
     background-color: var(--primario);
+    background-color: #1c2529;
+    opacity: 1;
+    
+    background: linear-gradient(135deg, #141a1d55 25%, transparent 25%) -4px 0/ 8px 8px, 
+    
+    linear-gradient(225deg, #141a1d 25%, transparent 25%) -4px 0/ 8px 8px, linear-gradient(315deg, #141a1d55 25%, transparent 25%) 
+    0px 0/ 8px 8px, linear-gradient(45deg, #141a1d 25%, #1c2529 25%) 0px 0/ 8px 8px;
+    
     font-size: 1.6rem;
     line-height: 1.5;
 }
@@ -106,7 +115,7 @@ h3{
     font-family: var(--fuentePrincipal);
     color: var(--blanco);
     font-size: 3rem;
-    margin-right: 2rem;
+    margin-right: 5rem;
     
 
 } 
@@ -121,6 +130,7 @@ h3{
     color: var(--secundario);
 
 } 
+
 
 /******** footer ********/
 
@@ -219,6 +229,10 @@ color: var(--secundario);
     
 }
 
+.proyecto__contenido span {
+    font-size: small;
+    color: #FDD05A;
+}
 
 
 
