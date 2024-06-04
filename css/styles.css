@@ -181,11 +181,15 @@ body{
 /*algunos efectitos */ 
 .album-padding{
     padding: 2rem;
+    margin-top: 0rem;
 }
 
 
-.album__contenido--h2{
+.album__contenido--h2, .album__Contenido--p{
     text-align: center;
+}
+.album__contenido--h2{
+    margin-bottom: 0rem;
 }
 
 @media (min-width: 768px) {
@@ -193,9 +197,14 @@ body{
         padding: 0;
     }
 
-    .album__contenido--h2{
+    .album__contenido--h2, .album__contenido--p{
         text-align: left;
     }
+
+    
+    
+
+    
 
     
     
